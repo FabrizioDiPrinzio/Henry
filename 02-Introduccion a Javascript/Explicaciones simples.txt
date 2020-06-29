@@ -1,0 +1,38 @@
+Explicaciones de los conceptos:
+
+Variables:
+
+
+Una variable es una forma de guardar información para usarla más tarde. Por ejemplo, se puede crear una variable llamada "Nombre" con el valor "Fabrizio", y cuando escribamos código cada vez que usemos la variable "Nombre" se reemplazará por "Fabrizio". Las variables pueden contener cualquier cosa dentro: palabras, números, datos complejos o incluso funciones. Como su nombre indica, el valor de una variable puede cambiarse, por lo que puede usarse para cualquier elemento que pueda tener más de un valor, como por ejemplo una página web que le pregunta al usuario su nombre y luego lo utiliza para decirle "¡Hola, Fabrizio!".
+
+
+Strings:
+
+
+Un string es un bloque de texto. Siempre se encuentran entre comillas, y pueden contener cualquier caracter en su interior.
+
+
+Funciones (argumentos, return):
+
+
+Una función es un procedimiento que se ejecuta para realizar alguna acción, como por ejemplo hacer un cálculo matemático. Las funciones consisten de 3 elementos:
+
+1)El nombre de la función, que es como la reconocemos y la podemos invocar en cualquier momento. Siempre está precedido por la palabra clave "function". Por ejemplo: "function Suma".
+
+2)Los argumentos, que son las variables que se usarán dentro de la función. Siempre van entre paréntesis y separados por comas. Por ejemplo: "(x, y)".
+
+3)Las sentencias, osea, lo que hace la función. Siempre va entre llaves. Por ejemplo: {return x + y}.
+
+Si definimos las variables "x" e "y" como "1" y "2", la función nos devolverá el resultado 3. Si definimos las variables como "2" y "3", nos devolverá 5.
+
+
+Declaraciones if:
+
+
+Las declaraciones "if" se usan para imponer condiciones dentro de las funciones: si las variables cumplen con las condiciones se hará una cosa, sino, se hará otra. Por ejemplo, podemos crear una función que verifique la variable "edad" del usuario para ver si es mayor de 18 años de edad. Si lo es, devolvemos el valor "puede tomar alcohol", si no lo es, devolvemos el valor "no puede tomar alcohol".
+
+
+Valores booleanos (true, false):
+
+
+Los valores booleanos se usan para indicar si algo es verdadero o falso, "true" o "false". Solo retorna esos dos tipos de valores. Por ejemplo, "10 > 9" sería "True", mientras que "9 > 10" sería "false".
