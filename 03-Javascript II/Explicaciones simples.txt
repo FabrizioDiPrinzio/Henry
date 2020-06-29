@@ -1,0 +1,31 @@
+Bucles 'for':
+
+Un bucle 'for' es un tipo de bucle que se ejecuta constantemente siempre y cuando se cumpla una condición. Consiste de tres partes, separadas por un punto y coma: la variable sobre la que se ejecutará el bucle, la condición que hará que el bucle se ejecute, y la modificación que se le hará a la variable al comienzo del próximo ciclo. Por ejemplo, si quisiéramos hacer una función que cuente del 1 al 10, la expresaríamos así:
+
+for (var i = 1; i <= 10; i++( {
+console.log(i)
+}
+
+La primera parte de la función establece que el programa empezará a contar desde el número 1; la segunda parte que la función se ejecutará mientras i sea menor o igual a 10, y que dejará de ejecutarse cuando i supere 10; y la tercera que después de imprimir i se incremente el valor de i en 1 y se vuelva a ejecutar la función.
+
+Es sumamente importante establecer una condición para que el bucle finalice, porque si no se hace el bucle correrá por siempre, lo que consume recursos del sistema y puede hacer que la computadora se atasque.
+
+
+
+Operadores lógicos:
+
+Los operadores lógicos se usan para comparar los valores de "verdadero" o "falso" de dos expresiones. Son tres en total:
+
+&&: Es el operador lógico "y". Devolverá "verdadero" solo si ambas expresiones son verdaderas. Si una de ellas es falsa, devolverá "falso". Por ejemplo, para saber si alguien puede conducir o no, comprobaríamos si "es mayor de edad" y "tiene licencia de conducir" son verdaderos, y "puede conducir" solo sería verdadero si ambas condiciones son verdaderas. Si una de las condiciones no se cumple, esa persona no puede conducir.
+
+if ('es mayor de edad' && 'tiene licencia de conducir') {
+console.log('puede conducir')
+}
+
+||: es el operador lógico "o". Devolverá "verdadero" si por lo menos una de las expresiones son verdaderas, y "falso" solo si ambas son falsas. Por ejemplo, para saber si alguien puede tomar apuntes en clase, comprobaríamos si "tiene lapicera" o "tiene lápiz". Si tiene alguna de las dos, es capaz de tomar apuntes, solo o podría hacerlo si no tuviera ninguno de los dos elementos.
+
+if ('tiene lapicera' || 'tiene lápiz') {
+console.log('puede escribir')
+}
+
+!: es el operador lógico "no". Invierte el valor de "verdadero" o "falso" de la expresión, por lo que devuelve "verdadero" si la expresión es falsa, o "falso" si la expresión es verdadera. Por ejemplo, (2 + 2 == 5) es falso, pero !(2 + 2 == 5) es verdadero, por que "2 + 2" NO es igual a 5.
