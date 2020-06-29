@@ -1,0 +1,10 @@
+Arrays:
+
+
+Los arrays son listas ordenadas de objetos. Un array puede contener cualquier tipo de objeto en su interior: números, strings, booleanos, funciones o incluso otros arrays. Los elementos de un array se encuentran entre corchetes y separados por comas. Por ejemplo, un array de los números pares del 1 al 10 se escribiría así:
+
+const  numerosPares = [2, 4, 6, 8, 10]
+
+Los elementos de un array están numerados, y esta numeración comienza del número 0, no el 1. Por ejemplo, en la lista de arriba el elemento "numerosPares[0]" sería 2, "numerosPares[1]" sería 4, etcétera.
+
+Los arrays son objetos que pueden modificarse: pueden agregarse o quitarse elementos de su interior, y los objetos que tienen dentro pueden ser modificados a su vez.
